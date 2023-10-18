@@ -1,0 +1,19 @@
+.bg-custom{
+	background:#283593 !important;
+}
+.navbar .nav-link .nav-item
+{
+	font-size:20px;
+	color:white;
+}
+
+.navbar .nav-item:hover .nav-link:hover
+{
+	background:white;
+	color:black;
+	border-radius:10px;
+}
+.custom-select
+{
+	margin-right:300px;
+}
