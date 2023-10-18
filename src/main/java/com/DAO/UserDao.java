@@ -43,20 +43,7 @@ public class UserDao {
 		return f;
 	}
 	
-	/*
-	 * public List<User> getAllJob() { List<User> list=new ArrayList<User>(); User
-	 * u=null; try { String sql="select * from job order by id desc";
-	 * PreparedStatement ps=conn.prepareStatement(sql); ResultSet
-	 * rs=ps.executeQuery();
-	 * 
-	 * while(rs.next()) { u=new User(); u.setId(rs.getInt(1));
-	 * u.setName(rs.getString(2)); u.setEmail(rs.getString(3));
-	 * u.setPassword(rs.getString(4)); u.setQualification(rs.getString(5));
-	 * u.setRole("User"); list.add(u); } } catch (Exception e) { // TODO: handle
-	 * exception e.printStackTrace(); } return list;
-	 * 
-	 * }
-	 */
+	
 	
 	
 	public User login(String em, String psw)
