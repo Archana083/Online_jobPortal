@@ -20,7 +20,7 @@
 	<%@include file="Allcomponent/navbar.jsp"%>
 	<div class="container">
 
-		<div class="col-md-10 offset-md-1">
+		<div class="col-md-10 offset-md-1 mt-5">
 			<div class="card">
 				<div class="card-body">
 					<div class="text-center text-success">
